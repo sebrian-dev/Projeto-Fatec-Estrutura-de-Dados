@@ -5,7 +5,7 @@ public class Livro{
     private int anoPub;
     private boolean disponivel;
 
-    public Livro(String isbn, String titulo, String autor, int anoPub, boolean disponivel) {
+    public Livro(String isbn, String titulo, String autor, int anoPub) {
         this.isbn = isbn;
         this.titulo = titulo;
         this.autor = autor;
@@ -29,7 +29,7 @@ public class Livro{
         return anoPub;
     }
 
-    public boolean Disponivel() {
+    public boolean disponivel() {
         return disponivel;
     }
 
@@ -74,7 +74,8 @@ public class Livro{
         
         return this.isbn.equals(outroLivro.isbn);
     }
-
+    
+    @Override
     public int hashCode() {
         return this.isbn != null ? this.isbn.hashCode() : 0;
     }
