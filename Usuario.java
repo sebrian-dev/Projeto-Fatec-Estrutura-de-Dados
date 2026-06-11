@@ -26,5 +26,35 @@ public class Usuario {
         this.email = email;
     }
 
+    @Override
+    public String toString() {
+        return String.format("Usuário: %s (Matrícula: %d) | E-mail: %s", 
+                this.nome, this.matricula, this.email);
+    }
+
     
+    @Override
+    public boolean equals(Object obj) {
+       
+        if (this == obj) {
+            return true;
+        }
+
+        
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+
+        
+        Usuario outroUsuario = (Usuario) obj;
+
+        
+        return this.matricula == outroUsuario.matricula;
+    }
+
+    
+    @Override
+    public int hashCode() {
+        return this.matricula;
+    }
 }
