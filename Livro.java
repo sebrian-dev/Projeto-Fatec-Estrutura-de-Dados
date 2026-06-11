@@ -1,4 +1,4 @@
-public class Livro{
+public class Livro {
     private String isbn;
     private String titulo;
     private String autor;
@@ -29,7 +29,7 @@ public class Livro{
         return anoPub;
     }
 
-    public boolean disponivel() {
+    public boolean isDisponivel() {
         return disponivel;
     }
 
@@ -54,24 +54,16 @@ public class Livro{
 
     @Override
     public boolean equals(Object obj) {
-        
         if (this == obj) {
             return true;
         }
-
-        
         if (obj == null || getClass() != obj.getClass()) {
             return false;
         }
-
-        
         Livro outroLivro = (Livro) obj;
-
-    
         if (this.isbn == null) {
             return outroLivro.isbn == null;
         }
-        
         return this.isbn.equals(outroLivro.isbn);
     }
     
