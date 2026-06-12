@@ -107,31 +107,5 @@ Estruturas auxiliares para encadeamento dos dados.
 ```bash
 javac *.java
 
----
 
-## 🧠 Conceitos Aplicados
-- Estrutura de dados: Lista Duplamente Encadeada
-- Estrutura de dados: Fila (FIFO)
-- Estrutura de dados: Tabela Hash com encadeamento externo
-- Generics (Tipos Genéricos) em Java
-- Encapsulamento e organização de classes
-- Tratamento de exceções (FilaVaziaException)
-- Entrada de dados com Scanner
-- Sobrescrita de métodos (toString, equals, hashCode)
-
----
-
-## 👨‍🎓 Autores
-- Abraão Castro de Araújo | `RA:` 1430482423054
-- Eduardo Alves Dos Santos | `RA:` 1430482511004
-- Kaique Miranda Santos | `RA:` 1430482513035
-- Angelo Ribeiro Rodrigues dos Santos | `RA:` 1430642327026
-- Matheus Sebrian de Souza| `RA: ` 1430482511008
-
----
-
-## 🏫 Disciplina
-- Estrutura de Dados
-
----
 
