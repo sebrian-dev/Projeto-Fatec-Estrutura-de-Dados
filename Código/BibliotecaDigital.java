@@ -7,7 +7,7 @@ public class BibliotecaDigital{
         ListaDupla acervo = new ListaDupla();
         GestorEmprestimos gestorEmprestimos = new GestorEmprestimos(acervo);
 
-        int esc;//varíavel para escolha
+        int esc = 0;//varíavel para escolha
         boolean laco = true;//variável para controlar o laço de repetição
         boolean escolha = false;
 
@@ -22,10 +22,6 @@ public class BibliotecaDigital{
                             "\n7 -> Ver fila de espera de um livro"+
                             "\n8 -> Sair");
             esc = sc.nextInt();
-            if (esc > 8 || esc < 1) {
-               
-                
-            }
 
             sc.nextLine();
 
